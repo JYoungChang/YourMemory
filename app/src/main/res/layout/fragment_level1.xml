@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sl="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        sl:scale_base_width="1920"
+        sl:scale_base_height="1080">
+
+        <com.ssomai.android.scalablelayout.ScalableLayout
+            android:id="@+id/scalable_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            sl:scale_width="1920"
+            sl:scale_height="500"
+            sl:scale_base_width="1920"
+            sl:scale_base_height="500">
+
+            <TextView
+                android:id="@+id/tv_level1_q_1th"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                sl:scale_width="200"
+                sl:scale_height="200"
+                sl:scale_top="150"
+                sl:scale_left="459.5"/>
+
+            <TextView
+                android:id="@+id/tv_level1_q_2th"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                sl:scale_width="200"
+                sl:scale_height="200"
+                sl:scale_top="150"
+                sl:scale_left="726.5"/>
+
+            <TextView
+                android:id="@+id/tv_level1_q_3th"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                sl:scale_width="200"
+                sl:scale_height="200"
+                sl:scale_top="150"
+                sl:scale_left="993.5"/>
+
+            <TextView
+                android:id="@+id/tv_level1_q_4th"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                sl:scale_width="200"
+                sl:scale_height="200"
+                sl:scale_top="150"
+                sl:scale_left="1260.5"/>
+
+        </com.ssomai.android.scalablelayout.ScalableLayout>
+
+        <com.ssomai.android.scalablelayout.ScalableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            sl:scale_width="1920"
+            sl:scale_height="500"
+            sl:scale_top="500"
+            sl:scale_base_width="1920"
+            sl:scale_base_height="500">
+
+            <TextView
+                android:id="@+id/tv_level1_a_1th"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="#2B2B2B"
+                sl:scale_width="200"
+                sl:scale_height="200"
+                sl:scale_top="150"
+                sl:scale_left="459.5"/>
+
+            <TextView
+                android:id="@+id/tv_level1_a_2th"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="#2B2B2B"
+                sl:scale_width="200"
+                sl:scale_height="200"
+                sl:scale_top="150"
+                sl:scale_left="726.5"/>
+
+            <TextView
+                android:id="@+id/tv_level1_a_3th"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="#2B2B2B"
+                sl:scale_width="200"
+                sl:scale_height="200"
+                sl:scale_top="150"
+                sl:scale_left="993.5"/>
+
+            <TextView
+                android:id="@+id/tv_level1_a_4th"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="#2B2B2B"
+                sl:scale_width="200"
+                sl:scale_height="200"
+                sl:scale_top="150"
+                sl:scale_left="1260.5"/>
+
+        </com.ssomai.android.scalablelayout.ScalableLayout>
+
+        <com.ssomai.android.scalablelayout.ScalableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            sl:scale_width="1920"
+            sl:scale_height="80"
+            sl:scale_top="1000"
+            sl:scale_base_width="1920"
+            sl:scale_base_height="80">
+
+            <TextView
+                android:id="@+id/tv_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                sl:scale_width="1920"
+                sl:scale_height="80"
+                sl:scale_textsize="50"/>
+
+        </com.ssomai.android.scalablelayout.ScalableLayout>
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+
+</LinearLayout>

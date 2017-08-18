@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">YourMemory</string>
+    <string name="name">YourMemory</string>
+    <string name="touch_screen">Touch Screen</string>
+</resources>

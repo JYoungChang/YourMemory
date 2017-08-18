@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sl="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        sl:scale_base_width="1920"
+        sl:scale_base_height="1080">
+
+        <FrameLayout
+            android:id="@+id/fragment_layout_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            sl:scale_width="1920"
+            sl:scale_height="1080">
+
+        </FrameLayout>
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+
+
+</LinearLayout>
